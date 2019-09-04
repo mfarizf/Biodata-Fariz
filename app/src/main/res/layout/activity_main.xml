@@ -24,20 +24,20 @@
                 android:layout_gravity="center_horizontal"
                 android:layout_width="150dp"
                 android:layout_height="150dp"
-                android:src="@drawable/circle_image"/>
+                android:src="@drawable/image6"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="10dp"
-                android:text="Mark Zukerberg"
+                android:text="Muhammad Fariz Fakhruddin"
                 android:textColor="#fff"
                 android:textSize="21sp"
                 android:textStyle="bold"/>
         </LinearLayout>
         <android.support.v7.widget.CardView
-            android:layout_width="400dp"
+            android:layout_width="300dp"
             android:layout_height="120dp"
             android:layout_marginTop="257dp"
             android:layout_centerHorizontal="true">
@@ -56,13 +56,13 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="photos"
+                        android:text="Age"
                         android:textSize="20sp"/>
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textSize="20sp"
-                        android:text="200"
+                        android:text="17"
                         android:textStyle="bold"
                         android:textColor="@color/colorAccent"
                         android:paddingTop="10dp"/>
@@ -76,13 +76,13 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Followers"
+                        android:text="Weight"
                         android:textSize="20sp"/>
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:paddingTop="10dp"
-                        android:text="1M"
+                        android:text="97"
                         android:textColor="@color/colorAccent"
                         android:textSize="20sp"
                         android:textStyle="bold"/>
@@ -90,7 +90,7 @@
 
                 <LinearLayout
                     android:layout_width="0dp"
-                    android:layout_height="104dp"
+                    android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center"
                     android:orientation="vertical">
@@ -98,14 +98,14 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Following"
+                        android:text="Height"
                         android:textSize="20sp" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:paddingTop="10dp"
-                        android:text="0"
+                        android:text="175"
                         android:textColor="@color/colorAccent"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -127,11 +127,11 @@
         <ImageView
             android:layout_width="36dp"
             android:layout_height="36dp"
-            android:src="@drawable/ic_email_black_24dp"/>
+            android:src="@drawable/ic_mail_black_24dp"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="mark@facebook.com"
+            android:text="mfakhruddin2237@gmail.com"
             android:textStyle="bold"
             android:layout_gravity="center"
             android:paddingLeft="20dp"/>
@@ -149,7 +149,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="021 444 555"
+                android:text="081395059329"
                 android:textStyle="bold"
                 android:layout_gravity="center"
                 android:paddingLeft="20dp"/>
@@ -164,11 +164,11 @@
             <ImageView
                 android:layout_width="36dp"
                 android:layout_height="36dp"
-                android:src="@drawable/ic_group_add_black_24dp"/>
+                android:src="@drawable/ic_location_on_black_24dp"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Add to Group"
+                android:text="Jl.Sekelimus Utara Gg.Gedong No.6"
                 android:textStyle="bold"
                 android:layout_gravity="center"
                 android:paddingLeft="20dp"/>
@@ -182,15 +182,16 @@
             <ImageView
                 android:layout_width="36dp"
                 android:layout_height="36dp"
-                android:src="@drawable/ic_forum_black_24dp"/>
+                android:src="@drawable/ic_date_range_black_24dp"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Show All Comments"
+                android:text="2002 May 11"
                 android:textStyle="bold"
                 android:layout_gravity="center"
                 android:paddingLeft="20dp"/>
         </LinearLayout>
+
     </LinearLayout>
     <Button
         android:layout_width="wrap_content"
